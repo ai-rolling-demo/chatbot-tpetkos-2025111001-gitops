@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: chatbot-tpetkos-gitops-repository
+spec:
+  url: https://github.com/ai-rolling-demo/chatbot-tpetkos-2025111001-gitops

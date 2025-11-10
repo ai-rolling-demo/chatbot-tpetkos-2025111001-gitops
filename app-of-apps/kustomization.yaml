@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+commonLabels:
+  rhtap/gitops: chatbot-tpetkos
+  janus-idp.io/tekton: chatbot-tpetkos
+  backstage.io/kubernetes-id: chatbot-tpetkos
+  backstage.io/kubernetes-namespace: rhdh-app
+  app.kubernetes.io/part-of: chatbot-tpetkos
+resources:
+  - application-dev.yaml
